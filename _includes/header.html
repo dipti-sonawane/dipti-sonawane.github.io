@@ -1,15 +1,12 @@
-<header class="site-header">
-  <div class="uk-navbar">
-    <div class="uk-navbar-content">
-      <a class="uk-icon uk-icon-home" href="/"><span class="uk-margin-small-left">Home</span></a>
-    </div>      
-    <div class="uk-navbar-flip">
-      <div class="uk-navbar-content uk-navbar-right">
-        <a class="uk-icon uk-icon-pinterest uk-margin-left" href="https://www.pinterest.com/sdipti/"></a>
-        <a class="uk-icon uk-icon-vimeo uk-margin-left" href="https://vimeo.com/dipti"></a>
-        <a class="uk-icon uk-icon-slideshare uk-margin-left" href="http://www.slideshare.net/sdipti"></a>
-        <a class="uk-icon uk-icon-linkedin uk-margin-left" href="http://fi.linkedin.com/in/diptisonawane"></a>
-      </div>
-    </div>
-  </div>
+<header>
+  <nav>
+    <a class="logo" href="{{ site.baseurl }}/">Home</a>
+    <ul class="social">
+      <li><a href="mailto:{{ site.email }}" class="email">Email</a></li>
+      <li><a href="{{ site.baseurl }}/{{ site.cv }}" class="cv">CV</a></li>
+      <li><a href="https://linkedin.com/{{ site.linkedin }}" class="linkedin">LinkedIn</a></li>
+      <li><a href="https://vimeo.com/{{ site.vimeo }}" class="vimeo">Vimeo</li>
+      <li><a href="https://coroflot.com/{{ site.coroflot }}" class="coroflot">Coroflot</a></li>
+    </ul>
+  </nav>
 </header>

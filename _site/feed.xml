@@ -1,40 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dipti Sonawane - Portfolio</title>
-    <description>I’m a communication designer with a passion for Interaction Design and  User Experience Design. Process and user centric design solutions  fascinate me. My work involves a range of communication media ranging  from new media, graphic and illustration, to type and colour. New Media  is a new-found love, primarily driven by my interest in Interaction Design.
+    <title>Dipti Sonawane</title>
+    <description>I’m a designer with a passion for user interface and experience design. I design products that are simple and engaging. My recent work includes designing interfaces and specifications for complex digital products including custom hardware, displays and watches; across platforms and form factors. My work also spans digital design, new media, graphics, illustration and typography.
+
+Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX consultant for KONE and Suunto. I have worked for clients such as ABB, Helsinki University, Symbio, Suomi.fi, Forenom, Aalto University, Innofactor and Palkeet. I have 7 years of experience in visual and interaction design.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Dec 2015 23:01:09 +0200</pubDate>
-    <lastBuildDate>Sun, 06 Dec 2015 23:01:09 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 12 Dec 2015 13:20:54 +0200</pubDate>
+    <lastBuildDate>Sat, 12 Dec 2015 13:20:54 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+        <title>Suunto</title>
+        <description>&lt;p&gt;All my work with Suunto&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/12/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/12/06/welcome-to-jekyll.html</guid>
+        <link>//ui/ux/visual%20design/2015/12/06/suunto/</link>
+        <guid isPermaLink="true">//ui/ux/visual%20design/2015/12/06/suunto/</guid>
         
         
-        <category>jekyll</category>
+        <category>ui</category>
         
-        <category>update</category>
+        <category>ux</category>
+        
+        <category>visual design</category>
+        
+      </item>
+    
+      <item>
+        <title>KONE</title>
+        <description>&lt;p&gt;All my work with KONE&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
+        <link>//ui/ux/2015/12/06/kone/</link>
+        <guid isPermaLink="true">//ui/ux/2015/12/06/kone/</guid>
+        
+        
+        <category>ui</category>
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>Siivouspaiva</title>
+        <description>&lt;p&gt;Siivouspaiva app design concept&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
+        <link>//ui/ux/2015/12/06/siivouspaiva/</link>
+        <guid isPermaLink="true">//ui/ux/2015/12/06/siivouspaiva/</guid>
+        
+        
+        <category>ui</category>
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>Espoo Library Bus</title>
+        <description>&lt;p&gt;Building upon the research for the new library bus for Espoo, five concepts were proposed to revolutionise the service. These concepts aimed to demonstrate how the technology in the bus could be used to facilitate various kinds of workshops and events. Some of the more immersive ideas proposed were the Starry Skies, Gardening, Craft-workshop, Movie-nights, Storytelling and a concept for the regular bus.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/56093580&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
+        <link>//ux/2015/12/06/library-bus/</link>
+        <guid isPermaLink="true">//ux/2015/12/06/library-bus/</guid>
+        
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>Mumbai Attacks</title>
+        <description>&lt;p&gt;Infographic on the Mumbai attacks&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
+        <link>//infographic/2015/12/06/mumbai-attacks/</link>
+        <guid isPermaLink="true">//infographic/2015/12/06/mumbai-attacks/</guid>
+        
+        
+        <category>infographic</category>
+        
+      </item>
+    
+      <item>
+        <title>Aata Paata Horaata</title>
+        <description>&lt;p&gt;APH system&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
+        <link>//ux/2015/12/06/aph/</link>
+        <guid isPermaLink="true">//ux/2015/12/06/aph/</guid>
+        
+        
+        <category>ux</category>
         
       </item>
     
