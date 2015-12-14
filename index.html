@@ -2,14 +2,12 @@
 layout: page
 title: Dipti Sonawane
 ---
+{{ site.description | markdownify }}
 <ul class="specialties">
   {% for specialty in site.specialties %}
     <li>{{ specialty }}</li>
   {% endfor %}
 </ul>
-{{ site.description | markdownify }}
-
-<h2>Selected Projects</h2>
 
 <ul class="post-list">
   {% for post in site.posts %}
