@@ -8,8 +8,8 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jan 2016 19:13:33 +0200</pubDate>
-    <lastBuildDate>Thu, 14 Jan 2016 19:13:33 +0200</lastBuildDate>
+    <pubDate>Fri, 15 Jan 2016 00:30:55 +0200</pubDate>
+    <lastBuildDate>Fri, 15 Jan 2016 00:30:55 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,9 +17,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;All my work with Suunto&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//visual%20design/ux%20design/2015/12/06/suunto/</link>
-        <guid isPermaLink="true">//visual%20design/ux%20design/2015/12/06/suunto/</guid>
+        <link>//recent/visual%20design/ux%20design/2015/12/06/suunto/</link>
+        <guid isPermaLink="true">//recent/visual%20design/ux%20design/2015/12/06/suunto/</guid>
         
+        
+        <category>Recent</category>
         
         <category>Visual Design</category>
         
@@ -32,9 +34,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;All my work with KONE&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ux%20design/2015/12/06/kone/</link>
-        <guid isPermaLink="true">//ux%20design/2015/12/06/kone/</guid>
+        <link>//recent/ux%20design/2015/12/06/kone/</link>
+        <guid isPermaLink="true">//recent/ux%20design/2015/12/06/kone/</guid>
         
+        
+        <category>Recent</category>
         
         <category>UX Design</category>
         
@@ -45,9 +49,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;Siivouspaiva app design concept&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//visual%20design/ux%20design/2015/12/06/siivouspaiva/</link>
-        <guid isPermaLink="true">//visual%20design/ux%20design/2015/12/06/siivouspaiva/</guid>
+        <link>//recent/visual%20design/ux%20design/2015/12/06/siivouspaiva/</link>
+        <guid isPermaLink="true">//recent/visual%20design/ux%20design/2015/12/06/siivouspaiva/</guid>
         
+        
+        <category>Recent</category>
         
         <category>Visual Design</category>
         
@@ -59,12 +65,22 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <title>Espoo Library Bus</title>
         <description>&lt;p&gt;Building upon the research for the new library bus for Espoo, five concepts were proposed to revolutionise the service. These concepts aimed to demonstrate how the technology in the bus could be used to facilitate various kinds of workshops and events. Some of the more immersive ideas proposed were the Starry Skies, Gardening, Craft-workshop, Movie-nights, Storytelling and a concept for the regular bus.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/espoo-library-bus/library_bus_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;
+&lt;img src=&quot;/assets/espoo-library-bus/library_bus_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;
+&lt;img src=&quot;/assets/espoo-library-bus/library_bus_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;
+&lt;img src=&quot;/assets/espoo-library-bus/library_bus_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;
+&lt;img src=&quot;/assets/espoo-library-bus/library_bus_1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/espoo-library-bus/library_bus_2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+
 &lt;iframe src=&quot;https://player.vimeo.com/video/56093580&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ux%20design/research/2015/12/06/library-bus/</link>
-        <guid isPermaLink="true">//ux%20design/research/2015/12/06/library-bus/</guid>
+        <link>//recent/ux%20design/research/2015/12/06/library-bus/</link>
+        <guid isPermaLink="true">//recent/ux%20design/research/2015/12/06/library-bus/</guid>
         
+        
+        <category>Recent</category>
         
         <category>UX Design</category>
         
@@ -77,9 +93,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;Infographic on the Mumbai attacks&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//visual%20design/2015/12/06/mumbai-attacks/</link>
-        <guid isPermaLink="true">//visual%20design/2015/12/06/mumbai-attacks/</guid>
+        <link>//recent/visual%20design/2015/12/06/mumbai-attacks/</link>
+        <guid isPermaLink="true">//recent/visual%20design/2015/12/06/mumbai-attacks/</guid>
         
+        
+        <category>Recent</category>
         
         <category>Visual Design</category>
         

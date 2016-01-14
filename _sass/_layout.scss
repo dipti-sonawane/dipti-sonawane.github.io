@@ -1,7 +1,11 @@
+body {
+  background: $frame-color;
+  padding: 2%;
+}
 nav {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: calc($spacing-unit + 2%);
+  left: 2%;
   z-index: 1000;
   ul {
     margin: 0;
@@ -46,6 +50,7 @@ nav {
 article {
   position: relative;
   border: $spacing-unit solid $frame-color;
+  background: white;
   &:before,
   &:after {
     content: '';
@@ -54,6 +59,7 @@ article {
     right: 0;
     left: 0;
     border-top: $spacing-unit solid $frame-color;
+    z-index: 999;
   }
   &:after {
     top: auto;
@@ -72,7 +78,32 @@ p + p {
   // text-indent: 1em;
   margin-top: $spacing-unit;
 }
+article p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  img {
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+    width: calc(50% - 10px);
+    height: 80%;
 
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  img:first-child {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 80%;
+  }
+  @media (max-width: 767px) {
+    img {
+      width: 100%;
+    }
+  }
+}
 .post-list {
   margin: $spacing-unit*2 0 0 0;
   padding: 0;
@@ -83,6 +114,7 @@ p + p {
   align-items: baseline;
 
   .post-link {
+    display: none;
     flex: 0 0 calc((100% - 20px) / 2);
     margin-bottom: $spacing-unit*3;
     list-style: none;
@@ -125,6 +157,7 @@ p + p {
   margin: $spacing-unit*4 0 0 0;
   border-bottom: 4px solid lighten($brand-color,40%);
   li {
+    position: relative;
     list-style: none;
     display: inline;
     font-family: $title-font-family;
@@ -132,6 +165,22 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     margin-right: $spacing-unit;
+    cursor: pointer;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -9px;
+      border-bottom: 4px solid transparent;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover:after,
+    &.active:after {
+      border-color: black;
+    }
   }
 }
 
@@ -155,7 +204,7 @@ footer {
   // border-top: 1px solid $grey-color-light;
   p {
     font-size: $small-font-size;
-    // color: $grey-color-light;
+    color: $grey-color;
     text-align: center;
   }
 }

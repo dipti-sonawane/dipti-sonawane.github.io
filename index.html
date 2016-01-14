@@ -6,37 +6,54 @@ title: Dipti Sonawane
 
 <ul class="specialties">
   {% for specialty in site.specialties %}
-    <li>{{ specialty }}</li>
+  <li class="filter" data-filter=".{{ specialty | downcase | replace:' ','-' }}">{{ specialty }}</button></li>
   {% endfor %}
 </ul>
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if post.selected %}
-      <li class="post-link" data-tab="selected">
-    {% else %}
-      {% capture classes %}
+    {% capture classes %}
+      {% for category in post.categories %}
+        {{ category | downcase | replace:' ','-' | join:' ' }}
+      {% endfor %}
+    {% endcapture %}
+    <li class="post-link {{classes | strip_html | strip_newlines}}">
+      {% if post.hero %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <figure class="thumbnail">
+          <img src="{{ site.baseurl }}/{{ post.hero }}"></img>
+        </figure>
+      </a>
+      {% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3>{{ post.title }}</h3>
+      </a>
+      <ul class="categories">
         {% for category in post.categories %}
-          {{ category | downcase | replace:' ','-' | join:' ' }}
-        {% endfor %}
-      {% endcapture %}
-      <li class="post-link" data-tab="{{classes | strip_html | strip_newlines}}">
-    {% endif %}
-        {% if post.hero %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <figure class="thumbnail">
-            <img src="{{ site.baseurl }}/{{ post.hero }}"></img>
-          </figure>
-        </a>
-        {% endif %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <h3>{{ post.title }}</h3>
-        </a>
-        <ul class="categories">
-          {% for category in post.categories %}
+          {% if category != 'Recent' %}
             <li>{{ category }}</li>
-          {% endfor %}
-        </ul>
-      </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </li>
   {% endfor %}
 </ul>
+
+<script type="text/javascript">
+$(function(){
+  $('ul.post-list').mixItUp({
+    load: {
+      filter: '.recent'
+    },
+    selectors: {
+      target: 'li'
+    },
+    animation: {
+      enable: false,
+      effects: 'fade scale translateY(-100px)',
+      duration: 600,
+      reverseOut: true
+    }
+  });
+});
+</script>

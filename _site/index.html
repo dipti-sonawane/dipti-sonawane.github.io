@@ -8,7 +8,9 @@
   <title>Dipti Sonawane</title>
   <meta name="description" content="I’m a designer with a passion for user interface and experience design. I design products that are simple and engaging. My recent work includes designing interfaces and specifications for complex digital products including custom hardware, displays and watches; across platforms and form factors. My work also spans digital design, new media, graphics, illustration and typography.Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX consultant for KONE and Suunto. I have worked for clients such as ABB, Helsinki University, Symbio, Suomi.fi, Forenom, Aalto University, Innofactor and Palkeet. I have 7 years of experience in visual and interaction design.">
 
-  <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="//">
   <link rel="alternate" type="application/rss+xml" title="Dipti Sonawane" href="//feed.xml">
@@ -37,119 +39,160 @@
 
 <ul class="specialties">
   
-    <li>Selected Work</li>
+  <li class="filter" data-filter=".recent">Recent</button></li>
   
-    <li>Visual Design</li>
+  <li class="filter" data-filter=".visual-design">Visual Design</button></li>
   
-    <li>UX Design</li>
+  <li class="filter" data-filter=".ux-design">UX Design</button></li>
   
-    <li>Research</li>
+  <li class="filter" data-filter=".research">Research</button></li>
   
 </ul>
 
 <ul class="post-list">
   
     
-      <li class="post-link" data-tab="selected">
-    
-        
-        <a href="/visual%20design/ux%20design/2015/12/06/suunto/">
-          <h3>Suunto</h3>
-        </a>
-        <ul class="categories">
-          
-            <li>Visual Design</li>
-          
-            <li>UX Design</li>
-          
-        </ul>
-      </li>
-  
-    
-      <li class="post-link" data-tab="selected">
-    
-        
-        <a href="/ux%20design/2015/12/06/kone/">
-          <h3>KONE</h3>
-        </a>
-        <ul class="categories">
-          
-            <li>UX Design</li>
-          
-        </ul>
-      </li>
-  
-    
-      <li class="post-link" data-tab="selected">
-    
-        
-        <a href="/visual%20design/ux%20design/2015/12/06/siivouspaiva/">
-          <h3>Siivouspaiva</h3>
-        </a>
-        <ul class="categories">
-          
-            <li>Visual Design</li>
-          
-            <li>UX Design</li>
-          
-        </ul>
-      </li>
-  
-    
-      <li class="post-link" data-tab="selected">
-    
-        
-        <a href="/ux%20design/research/2015/12/06/library-bus/">
-          <figure class="thumbnail">
-            <img src="/assets/espoo-library-bus/hero.jpg"></img>
-          </figure>
-        </a>
-        
-        <a href="/ux%20design/research/2015/12/06/library-bus/">
-          <h3>Espoo Library Bus</h3>
-        </a>
-        <ul class="categories">
-          
-            <li>UX Design</li>
-          
-            <li>Research</li>
-          
-        </ul>
-      </li>
-  
-    
-      <li class="post-link" data-tab="selected">
-    
-        
-        <a href="/visual%20design/2015/12/06/mumbai-attacks/">
-          <h3>Mumbai Attacks</h3>
-        </a>
-        <ul class="categories">
-          
-            <li>Visual Design</li>
-          
-        </ul>
-      </li>
-  
-    
+    <li class="post-link               recent              visual-design              ux-design          ">
       
-      <li class="post-link" data-tab="                  ux-design                  research              ">
-    
+      <a href="/recent/visual%20design/ux%20design/2015/12/06/suunto/">
+        <h3>Suunto</h3>
+      </a>
+      <ul class="categories">
         
-        <a href="/ux%20design/research/2015/12/06/aph/">
-          <h3>Aata Paata Horaata</h3>
-        </a>
-        <ul class="categories">
+          
+        
+          
+            <li>Visual Design</li>
+          
+        
           
             <li>UX Design</li>
           
+        
+      </ul>
+    </li>
+  
+    
+    <li class="post-link               recent              ux-design          ">
+      
+      <a href="/recent/ux%20design/2015/12/06/kone/">
+        <h3>KONE</h3>
+      </a>
+      <ul class="categories">
+        
+          
+        
+          
+            <li>UX Design</li>
+          
+        
+      </ul>
+    </li>
+  
+    
+    <li class="post-link               recent              visual-design              ux-design          ">
+      
+      <a href="/recent/visual%20design/ux%20design/2015/12/06/siivouspaiva/">
+        <h3>Siivouspaiva</h3>
+      </a>
+      <ul class="categories">
+        
+          
+        
+          
+            <li>Visual Design</li>
+          
+        
+          
+            <li>UX Design</li>
+          
+        
+      </ul>
+    </li>
+  
+    
+    <li class="post-link               recent              ux-design              research          ">
+      
+      <a href="/recent/ux%20design/research/2015/12/06/library-bus/">
+        <figure class="thumbnail">
+          <img src="/assets/espoo-library-bus/hero.jpg"></img>
+        </figure>
+      </a>
+      
+      <a href="/recent/ux%20design/research/2015/12/06/library-bus/">
+        <h3>Espoo Library Bus</h3>
+      </a>
+      <ul class="categories">
+        
+          
+        
+          
+            <li>UX Design</li>
+          
+        
+          
             <li>Research</li>
           
-        </ul>
-      </li>
+        
+      </ul>
+    </li>
+  
+    
+    <li class="post-link               recent              visual-design          ">
+      
+      <a href="/recent/visual%20design/2015/12/06/mumbai-attacks/">
+        <h3>Mumbai Attacks</h3>
+      </a>
+      <ul class="categories">
+        
+          
+        
+          
+            <li>Visual Design</li>
+          
+        
+      </ul>
+    </li>
+  
+    
+    <li class="post-link               ux-design              research          ">
+      
+      <a href="/ux%20design/research/2015/12/06/aph/">
+        <h3>Aata Paata Horaata</h3>
+      </a>
+      <ul class="categories">
+        
+          
+            <li>UX Design</li>
+          
+        
+          
+            <li>Research</li>
+          
+        
+      </ul>
+    </li>
   
 </ul>
 
+<script type="text/javascript">
+$(function(){
+  $('ul.post-list').mixItUp({
+    load: {
+      filter: '.recent'
+    },
+    selectors: {
+      target: 'li'
+    },
+    animation: {
+      enable: false,
+      effects: 'fade scale translateY(-100px)',
+      duration: 600,
+      reverseOut: true
+    }
+  });
+});
+</script>
   </div>
 </article>
     <footer>
