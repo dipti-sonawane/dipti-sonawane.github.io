@@ -2,7 +2,8 @@
 layout: post
 title:  "Espoo Library Bus"
 date:   2015-12-06 17:17:44
-categories: [ux]
+selected: yes
+categories: [UX Design,Research]
 hero: "assets/espoo-library-bus/hero.jpg"
 ---
 

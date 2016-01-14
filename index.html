@@ -3,6 +3,7 @@ layout: page
 title: Dipti Sonawane
 ---
 {{ site.description | markdownify }}
+
 <ul class="specialties">
   {% for specialty in site.specialties %}
     <li>{{ specialty }}</li>
@@ -11,22 +12,31 @@ title: Dipti Sonawane
 
 <ul class="post-list">
   {% for post in site.posts %}
-    <li class="post-link">
-      {% if post.hero %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <figure class="thumbnail">
-          <img src="{{ site.baseurl }}/{{ post.hero }}"></img>
-        </figure>
-      </a>
-      {% endif %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3>{{ post.title }}</h3>
-      </a>
-      <ul class="categories">
+    {% if post.selected %}
+      <li class="post-link" data-tab="selected">
+    {% else %}
+      {% capture classes %}
         {% for category in post.categories %}
-          <li>{{ category }}</li>
+          {{ category | downcase | replace:' ','-' | join:' ' }}
         {% endfor %}
-      </ul>
-    </li>
+      {% endcapture %}
+      <li class="post-link" data-tab="{{classes | strip_html | strip_newlines}}">
+    {% endif %}
+        {% if post.hero %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <figure class="thumbnail">
+            <img src="{{ site.baseurl }}/{{ post.hero }}"></img>
+          </figure>
+        </a>
+        {% endif %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <h3>{{ post.title }}</h3>
+        </a>
+        <ul class="categories">
+          {% for category in post.categories %}
+            <li>{{ category }}</li>
+          {% endfor %}
+        </ul>
+      </li>
   {% endfor %}
 </ul>

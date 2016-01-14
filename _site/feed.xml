@@ -8,8 +8,8 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
 </description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Dec 2015 09:13:53 +0200</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2015 09:13:53 +0200</lastBuildDate>
+    <pubDate>Thu, 14 Jan 2016 18:37:22 +0200</pubDate>
+    <lastBuildDate>Thu, 14 Jan 2016 18:37:22 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -17,15 +17,13 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;All my work with Suunto&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ui/ux/visual%20design/2015/12/06/suunto/</link>
-        <guid isPermaLink="true">//ui/ux/visual%20design/2015/12/06/suunto/</guid>
+        <link>//visual%20design/ux%20design/2015/12/06/suunto/</link>
+        <guid isPermaLink="true">//visual%20design/ux%20design/2015/12/06/suunto/</guid>
         
         
-        <category>ui</category>
+        <category>Visual Design</category>
         
-        <category>ux</category>
-        
-        <category>visual design</category>
+        <category>UX Design</category>
         
       </item>
     
@@ -34,13 +32,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;All my work with KONE&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ui/ux/2015/12/06/kone/</link>
-        <guid isPermaLink="true">//ui/ux/2015/12/06/kone/</guid>
+        <link>//ux%20design/2015/12/06/kone/</link>
+        <guid isPermaLink="true">//ux%20design/2015/12/06/kone/</guid>
         
         
-        <category>ui</category>
-        
-        <category>ux</category>
+        <category>UX Design</category>
         
       </item>
     
@@ -49,13 +45,13 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;Siivouspaiva app design concept&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ui/ux/2015/12/06/siivouspaiva/</link>
-        <guid isPermaLink="true">//ui/ux/2015/12/06/siivouspaiva/</guid>
+        <link>//visual%20design/ux%20design/2015/12/06/siivouspaiva/</link>
+        <guid isPermaLink="true">//visual%20design/ux%20design/2015/12/06/siivouspaiva/</guid>
         
         
-        <category>ui</category>
+        <category>Visual Design</category>
         
-        <category>ux</category>
+        <category>UX Design</category>
         
       </item>
     
@@ -66,11 +62,13 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
 &lt;iframe src=&quot;https://player.vimeo.com/video/56093580&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ux/2015/12/06/library-bus/</link>
-        <guid isPermaLink="true">//ux/2015/12/06/library-bus/</guid>
+        <link>//ux%20design/research/2015/12/06/library-bus/</link>
+        <guid isPermaLink="true">//ux%20design/research/2015/12/06/library-bus/</guid>
         
         
-        <category>ux</category>
+        <category>UX Design</category>
+        
+        <category>Research</category>
         
       </item>
     
@@ -79,11 +77,11 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;Infographic on the Mumbai attacks&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//infographic/2015/12/06/mumbai-attacks/</link>
-        <guid isPermaLink="true">//infographic/2015/12/06/mumbai-attacks/</guid>
+        <link>//visual%20design/2015/12/06/mumbai-attacks/</link>
+        <guid isPermaLink="true">//visual%20design/2015/12/06/mumbai-attacks/</guid>
         
         
-        <category>infographic</category>
+        <category>Visual Design</category>
         
       </item>
     
@@ -92,11 +90,13 @@ Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX co
         <description>&lt;p&gt;APH system&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 19:17:44 +0200</pubDate>
-        <link>//ux/2015/12/06/aph/</link>
-        <guid isPermaLink="true">//ux/2015/12/06/aph/</guid>
+        <link>//ux%20design/research/2015/12/06/aph/</link>
+        <guid isPermaLink="true">//ux%20design/research/2015/12/06/aph/</guid>
         
         
-        <category>ux</category>
+        <category>UX Design</category>
+        
+        <category>Research</category>
         
       </item>
     
