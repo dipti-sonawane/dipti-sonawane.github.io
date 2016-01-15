@@ -1,0 +1,11 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+{{ site.description | markdownify }}
+<ul class="specialties">
+  {% for specialty in site.specialties %}
+    <li>{{ specialty }}</li>
+  {% endfor %}
+</ul>

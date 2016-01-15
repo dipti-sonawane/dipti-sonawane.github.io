@@ -1,14 +1,21 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Dipti Sonawane
+email: dipsmiles@gmail.com
+description: |
+  I’m a designer with a passion for user interface and experience design. I design products that are simple and engaging. My recent work includes designing interfaces and specifications for complex digital products including custom hardware, displays and watches; across platforms and form factors. My work also spans digital design, new media, graphics, illustration and typography.
+
+  Presently, I am employed at Cresense (now part of Ixonos) as an on-site UI/UX consultant for KONE and Suunto. I have worked for clients such as ABB, Helsinki University, Symbio, Suomi.fi, Forenom, Aalto University, Innofactor and Palkeet. I have 7 years of experience in visual and interaction design.
+
+specialties: [Recent,Visual Design,UX Design,Research]
+# specialties: [Interaction Design, Interface & Web Design, Illustration & Graphic Design, Design Research, Typography]
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "/" # the base hostname & protocol for your site
+cv: ""
+linkedin: in/diptisonawane
+vimeo: dipti
+coroflot: dipti_s
+copyright: "All content copyright Dipti Sonawane"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
