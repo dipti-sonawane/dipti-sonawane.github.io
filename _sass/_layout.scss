@@ -101,7 +101,7 @@ article p {
     flex: 0 0 auto;
     margin-bottom: 20px;
     width: calc(50% - 10px);
-    height: 80%;
+    height: 20em;
 
     object-fit: cover;
     object-position: 50% 50%;
@@ -109,7 +109,7 @@ article p {
   img:first-child {
     margin-bottom: 20px;
     width: 100%;
-    height: 80%;
+    height: 30em;
   }
   @media (max-width: 767px) {
     img {

@@ -16,11 +16,6 @@ layout: default
         {% endif %}
       {% endfor %}
     </ul>
-    {% if page.hero %}
-      <p class="hero-content">
-        <img src="{{ site.baseurl }}/{{ page.hero }}"></img>
-      </p>
-    {% endif %}
     {{ content }}
     <div class="prev-next">
       {% if page.previous.url %}
