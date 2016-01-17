@@ -37,6 +37,13 @@ h1 { font-size:2.61538em; padding:1.71602em 0 0.2em 0; }
 h2 { font-size:2em; padding:1.66698em 0; }
 h3, h4, h5, h6 { font-size:1.23077em; padding:1.87538em 0; text-transform: uppercase; }
 
+@media (max-width: 480px) {
+    h1 { font-size:2.61538em * 0.8; padding:(1.71602em / 2) 0; }
+    h1 { font-size:2.61538em * 0.8; padding:(1.71602em / 2) 0 0.1em 0; }
+    h2 { font-size:2em * 0.8; padding:(1.66698em / 2) 0; }
+    h3, h4, h5, h6 { font-size:1.23077em * 0.8; padding:(1.87538em / 2) 0; text-transform: uppercase; }
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */

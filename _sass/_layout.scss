@@ -1,12 +1,19 @@
 body {
   background: $frame-color;
   padding: 2%;
+  @media (max-width: 480px) {
+    padding: 0;
+  }
 }
 nav {
   position: fixed;
-  top: calc($spacing-unit + 2%);
-  left: 2%;
+  top: 2vw;
+  left: 2vw;
   z-index: 1000;
+  @media (max-width: 480px) {
+    top: 0;
+    left: 0;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -58,7 +65,7 @@ article {
     top: 0;
     right: 0;
     left: 0;
-    border-top: $spacing-unit solid $frame-color;
+    border-top: calc(20px + 2vw) solid $frame-color;
     z-index: 999;
   }
   &:after {
@@ -70,8 +77,14 @@ article {
   padding: 0 $spacing-unit*2 $spacing-unit*2 $spacing-unit*2;
   margin: 0 auto;
   max-width: $content-width;
+  &.dipti-sonawane {
+    padding: $spacing-unit*10 $spacing-unit*2 $spacing-unit*2 $spacing-unit*2;
+  }
   @media (max-width: 480px) {
     padding: 0 $spacing-unit $spacing-unit*2 $spacing-unit*2;
+    &.dipti-sonawane {
+      padding: $spacing-unit*10 $spacing-unit $spacing-unit*2 $spacing-unit*2;
+    }
   }
 }
 p + p {
@@ -104,6 +117,14 @@ article p {
     }
   }
 }
+.profile-pic {
+  position: absolute;
+  top: $spacing-unit*2;
+  width: $spacing-unit*10;
+  @media (max-width: 480px) {
+    width: $spacing-unit*9;
+  }
+}
 .post-list {
   margin: $spacing-unit*2 0 0 0;
   padding: 0;
@@ -121,6 +142,9 @@ article p {
     figure {
       margin: 0;
       border: 3px solid lighten($brand-color,30%);
+    }
+    @media (max-width: 480px) {
+      margin-bottom: $spacing-unit*2;
     }
   }
 
@@ -152,6 +176,9 @@ article p {
 .post .categories {
   margin-bottom: $spacing-unit*3;
   font-weight: 700;
+  @media (max-width: 480px) {
+    margin-bottom: $spacing-unit*2;
+  }
 }
 .specialties {
   margin: $spacing-unit*4 0 0 0;
@@ -164,9 +191,10 @@ article p {
     font-size: $base-font-size;
     text-transform: uppercase;
     letter-spacing: 0.025em;
-    margin-right: $spacing-unit;
     cursor: pointer;
-
+    &:not(:last-child) {
+      margin-right: $spacing-unit;
+    }
     &:after {
       content: '';
       position: absolute;
@@ -182,12 +210,38 @@ article p {
       border-color: black;
     }
   }
+  @media (max-width: 480px) {
+    margin: $spacing-unit*2 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    li {
+      flex: 0 0 auto;
+      font-size: 12px;
+      margin: 0 !important;
+      &:after {
+        bottom: -4px;
+      }
+    }
+  }
 }
 
 .hero {
   // max-width: $content-width;
   margin: 0 auto;
   height: 40vh;
+  display: none;
+  @media (max-width: 480px) {
+    margin: 0 auto;
+    height: 40vh;
+    display: block;
+  }
+}
+.hero-content {
+  @media (max-width: 480px) {
+    display: none;
+  }
 }
 .prev-next {
   display: flex;
